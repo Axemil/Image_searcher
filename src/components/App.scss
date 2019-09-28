@@ -1,0 +1,26 @@
+@import '../sass/vars.scss', '../components/searchComponents/searcher.scss';
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.main{
+  background: $main-purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.body{
+  width: 70%;
+}
+.header{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba($color: #000, $alpha: 0.2);
+  display: inline-block;
+  background: $back-purple;
+}
+.header h2,.header h3{
+  text-align: center;
+}

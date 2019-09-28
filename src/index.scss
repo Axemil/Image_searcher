@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import './sass/vars.scss', './sass/normalize.scss', './components/App.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font: 14px/1.4 'Roboto', sans-serif;
+  background: $main-purple;
+  color: $white;
+}
