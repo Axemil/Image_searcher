@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { getImage } from "../actions/imgAction";
 
 class SearcherResult extends Component {
-
   render() {
     return (
       <>

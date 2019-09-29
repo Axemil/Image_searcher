@@ -6,14 +6,14 @@ class SearcherBar extends Component {
   constructor() {
     super();
     this.state = {
-      value: "",
+      value: ""
     };
   }
   getInfo = event => this.setState({ value: event.target.value });
   sendInfo = event => {
     event.preventDefault();
     this.props.getImage(this.state.value);
-    this.setState({value: ''})
+    this.setState({ value: "" });
   };
 
   render() {
