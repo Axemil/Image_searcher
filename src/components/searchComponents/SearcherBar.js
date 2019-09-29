@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,useState } from "react";
 import { connect } from "react-redux";
 import { getImage } from "../actions/imgAction";
 
@@ -32,6 +32,7 @@ class SearcherBar extends Component {
     );
   }
 }
+
 
 export default connect(
   null,
