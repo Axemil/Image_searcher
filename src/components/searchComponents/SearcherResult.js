@@ -11,7 +11,7 @@ class SearcherResult extends Component {
         <div className="result-area">
           {this.props.images.hits
             ? this.props.images.hits.map(item => <SearchItem info={item} />)
-            : "Картинок нет :("}
+            : "Введите что нибудь."}
         </div>
       </>
     );
